@@ -13,6 +13,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         System.out.println("Hi, FJCU Kuo-Hua Wang!");
+        System.out.println("I am a teacher. You are students!");
 
         List<String> list = new ArrayList<String>();
         list.add("Boy"); list.add("Girl"); list.add("Old Man");
