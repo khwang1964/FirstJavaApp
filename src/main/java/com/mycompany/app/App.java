@@ -12,6 +12,8 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        System.out.println("Hi, FJCU Kuo-Hua Wang!");
+
         List<String> list = new ArrayList<String>();
         list.add("Boy"); list.add("Girl"); list.add("Old Man");
         for (String str: list) {
