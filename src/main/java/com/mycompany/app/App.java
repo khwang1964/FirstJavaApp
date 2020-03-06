@@ -23,7 +23,7 @@ public class App
             System.out.println(str);
         }
         Integer[] IntArray = {1, 2, 3, 4, 5};
-        ArrayList<Integer> list1 = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
         Collections.addAll(list1, IntArray);
         for (Integer a : list1) {
             System.out.println(a);
