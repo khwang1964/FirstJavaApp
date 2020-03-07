@@ -27,6 +27,11 @@ public class App
         List<Integer> list1 = new ArrayList<>();
         Collections.addAll(list1, IntArray2);
         Collections.addAll(list1, IntArray1);
+        for (Integer a : list1) {
+            System.out.print(a);
+            System.out.print(" ");
+        }
+        System.out.println();
         Collections.sort(list1);
         for (Integer a : list1) {
             System.out.print(a);
